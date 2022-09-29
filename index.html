@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Air Force</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="playground">
+				<div id="hero"></div>
+				<div id="bullet"></div>
+				<div id="enemyContainer"></div>
+				<div id="deadBravo"></div>
+				<div id="levelShow"></div>
+				<input type="submit" id="help" value = "Help Me">
+				<p id="helpText">
+					Move Left: Left Arrow Key<br/>
+					Move Right: Right Arrow Key<br/>
+					Rotate Left: Ctrl Key + Left Arrow Key<br/>
+					Rotate Right: Ctrl Key + Right Arrow Key<br/>
+					Restore Vertical Position: Up Arrow Key<br/>
+					Fire: Space Key<br/>
+					<br/>
+					A level is passed if <span id="enemiesHit">30</span> enemies are hit<br/>
+					<br/>
+					The game ends if you get hit <span id="helpLives">3</span> times<br/>
+					or <span id="helpPasses">10</span> enemies pass by
+				</p>
+			</div>
+			<div id="info">
+				<div id="livesRemaining">Lives<br/><span id="lives">3</span></div>
+				<div id="enemiesPassed">Enemies Passed<br/><span id="passed">0</span></div>
+			</div>
+			<div id="radar">
+				<div id="radarHero"></div>
+				<div id="radarBullet"></div>
+				<div id="radarEnemyContainer"></div>
+			</div>
+			<div id="info2">
+				<div id="scoreboard">Score<br/><span id="score">0</span></div>
+				<div id="enemiesKilled">Enemies Killed<br/><span id="killed">0</span></div>
+			</div>
+		</div>
+	</body>
+</html>

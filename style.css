@@ -1,0 +1,139 @@
+body {
+	background-color: grey;
+	margin: 0;
+	font-family: Arial;
+}
+
+.enemy, .radarEnemy, #container, #playground, #hero, #bullet, #info, #info2, #help, #radar, #radarHero, #radarBullet, #radarEnemyContainer, #helpText {
+	position: absolute;
+}
+
+#container {
+	left: 150;
+}
+
+#playground {
+	width: 800;
+	background-color: black;
+	height: 500;
+}
+
+#hero {
+	background-image: url("images/hero.png");
+	top: 410;
+	left: 400;
+	width: 100;
+	height: 60;
+}
+
+.enemy, .radarEnemy {
+	background-image: url("images/enemy.png");
+	top: 0;
+	left: 650;
+	width: 40;
+	height: 40;
+	opacity: 1;
+}
+
+#bullet {
+	background-image: url("images/bullet.png");
+	top: 400;
+	left: 400;
+	width: 20;
+	height: 20;
+	visibility: hidden;
+}
+
+#deadBravo, #levelShow {
+	position: absolute;
+	width: 800;
+	text-align: center;
+}
+
+#deadBravo {
+	top: 250;
+	font-size: 200%;
+}
+
+#levelShow {
+	font-size: 300%;
+	color: green;
+	top: 285;
+}
+
+#info, #radar, #info2 {
+	top: 500;
+}
+
+#info, #info2 {
+	width: 317;
+	height: 106;
+	background-color: #204050;
+	color: white;
+	font-family: Bradley Hand ITC;
+	font-size: 110%;
+}
+
+#radar {
+	background-color: black;
+	border: 3px solid white;
+	left: 317;
+	width: 160;
+	height: 100;
+}
+
+#info2 {
+	left: 483;
+}
+
+#scoreboard, #enemiesKilled, #livesRemaining, #enemiesPassed {
+	width: 317;
+	text-align: center;
+	font-size: 120%;
+}
+
+#scoreboard, #enemiesKilled {
+	float: right;
+	padding-right: 10;
+}
+
+#livesRemaining, #enemiesPassed {
+	padding-left: 10;
+}
+
+#help {
+	left: 1000;
+	top: 250;
+}
+
+#helpText {
+	visibility: hidden;
+	left: 850;
+	top: 200;
+	width: 300;
+}
+
+#radarHero {
+	background-image: url("images/heroSmall.png");
+	top: 50;
+	left: 50;
+	width: 20;
+	height: 12;
+}
+
+.radarEnemy {
+	background-image: url("images/enemySmall.png");
+	top: 50;
+	left: 50;
+	width: 8;
+	height: 8;
+}
+
+#radarBullet {
+	background-image: url("images/bulletSmall.png");
+	top: 50;
+	left: 50;
+	width: 4;
+	height: 4;
+	visibility: hidden;
+}
